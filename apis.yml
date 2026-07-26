@@ -1,7 +1,11 @@
 aid: egab
 name: Egab
-description: Egab is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Egab is a journalism platform founded in late 2020 and headquartered in Cairo,
+  Egypt, that connects local journalists across the Global South — the Middle East, Africa,
+  and beyond (60+ countries) — with international media outlets. It specializes in solutions
+  journalism, offering journalists mentoring, editorial support, skills development, and fair
+  compensation from pitch to publication, while giving newsrooms cost-efficient access to
+  authentic, exclusive stories and diverse local contributors without flying in reporters.
 url: https://raw.githubusercontent.com/api-evangelist/egab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +13,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/690ce1e6f0839cc2541ed34f/69557070762b9f9bd91c12a7_default%20egab.png
 tags:
 - Company
+- Journalism
+- Media
+- News
+- Solutions Journalism
+- Global South
+- Publishing
+- Newsrooms
+- Content Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,26 @@ maintainers:
 common:
 - type: Website
   url: https://egab.co
+- type: DomainSecurity
+  url: security/egab-domain-security.yml
+- type: LLMsTxt
+  url: llms/egab-llms.txt
+- type: About
+  url: https://www.egab.co/about
+- type: Support
+  url: https://www.egab.co/contact-us
+- type: Blog
+  url: https://www.egab.co/news
+- type: PrivacyPolicy
+  url: https://www.egab.co/privacy-policy
+- type: TermsOfService
+  url: https://www.egab.co/terms-conditions
+- type: SignUp
+  url: https://app.egab.co/auth/journalist?action=signup
+- type: Login
+  url: https://app.egab.co/auth/journalist
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
